@@ -2,9 +2,9 @@ import pandas as pd
 import random
 
 # Load pre-saved movie-to-book and movie-to-music datasets
-movie_books_df = pd.read_csv("backend/dataset/movie_to_books.csv")
-movie_music_df = pd.read_csv("backend/dataset/movie_to_music.csv")
-movies_df = pd.read_csv("backend/dataset/movie_data.csv")
+movie_books_df = pd.read_csv("dataset/movie_to_books.csv")
+movie_music_df = pd.read_csv("dataset/movie_to_music.csv")
+movies_df = pd.read_csv("dataset/movie_data.csv")
 
 def recommend_based_on_genre(movie_name, recommendation_type="both"):
 
